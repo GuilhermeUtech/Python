@@ -18,6 +18,29 @@ print(b.count('o', 0,13)) # indo do 0 -> (13-1) contando o número de 'o'
 print(b.find('deo')) #Mostra aonde começou (posição) da cadeia deo se retornar -1 é pq n existe
 print('Curso' in b)  #retorna true or false
 
+b.replace('Python', 'Video')
+print(b.replace('Python', 'Video'))
+
+
+print(b.upper()) #transforma em maíusculo o que nao é
+print(b.lower()) #transforma em minusculo o que n é
+print(b.capitalize()) #Só o 1 caractere fica em maisuculo
+print(b.title()) #é o capitalize só que palavra por palavra
+
+c = "   Aprenda Python  " #atencao nos espaços vazios
+print(c.strip()) #tira espaços inúteis posso usar rstrip pra tira os a direita e o lstrip para tirar os da esquerda
+
+#Divisão de strings
+
+c.split()#estudar essa função divide pelo espaço as palavras
+print(c)
+'-'.join(c)#juntando as palavras que eu separei utilizando a '-'
+print(c)
+
+
+
+
+
 
 
 

@@ -1,0 +1,7 @@
+a = str(input("Digite uma frase\n"))
+b = a.count('A')
+print(b)
+c = a.find('A')
+print("O primeiro A começa em: {}".format(c))
+d = a.rfind('A')
+print("A última ocorrência é em: {}".format(d))
